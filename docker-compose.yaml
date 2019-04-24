@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - /rails/actioncable_demo:/usr/src/app
+    command: rails server -b 0.0.0.0
+
+volumes:
+  pgdata:
