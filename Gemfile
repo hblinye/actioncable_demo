@@ -8,7 +8,8 @@ gem 'rails', '~> 5.2.1'
 
 # use 'sqlite'
 gem 'sqlite3'
-
+gem 'jquery-rails' 
+gem 'jquery-ui-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
